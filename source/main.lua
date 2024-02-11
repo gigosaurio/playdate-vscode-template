@@ -1,8 +1,12 @@
 import "CoreLibs/graphics"
 
+local pd <const> = playdate
 local gfx <const> = playdate.graphics
+
+playerX, playerY = 200,120
+playerRadius = 10
 
 function playdate.update() 
     gfx.clear()
-    gfx.drawText("Hello World", 20, 20)
+    gfx.fillCircleAtPoint(playerX. playerY, playerRadius)
 end
