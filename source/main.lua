@@ -8,5 +8,5 @@ playerRadius = 10
 
 function playdate.update() 
     gfx.clear()
-    gfx.fillCircleAtPoint(playerX. playerY, playerRadius)
+    gfx.fillCircleAtPoint(playerX, playerY, playerRadius)
 end
